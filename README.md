@@ -51,3 +51,8 @@
 `git diff --staged`
 
 `git diff --staged [file name]`
+
+
+## Redo changes
+
+`git reset [file name]`
