@@ -56,3 +56,5 @@
 ## Redo changes
 
 `git reset [file name]`
+
+Unstages the file, but preserves its contents
