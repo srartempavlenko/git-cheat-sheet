@@ -80,15 +80,27 @@ Shows the differences not yet staged
 
 `git diff [file name]`
 
+Shows the differences not yet staged for a file
+
 `git diff --staged`
 
 Shows the differences between staging and the last file version
 
 `git diff --staged [file name]`
 
+Shows the differences between staging and the last file version for a file
+
+`git diff [branch-name] [branch-name]`
+
+Shows content differences between two branches
+
 `git log`
 
 Lists version history for the current branch
+
+`git show [commit]`
+
+Outputs metadata and content changes of the specified commit
 
 
 ## Redo changes
@@ -118,8 +130,47 @@ Discards all history changes back to the specified commit
 
 `git fetch`
 
+Downloads all history from the repository
+
 `git merge`
+
+Combines branch into current local branch
 
 `git pull`
 
+Downloads history and incorporates changes
+
+`git pull --rebase`
+
+Downloads history and incorporates changes on the top of remote changes
+
 `git push`
+
+Uploads all local branch commits
+
+
+## Temporary changes
+
+`git stash`
+
+Temporarily stores all modified tracking files
+
+`git stash [descriptive message]`
+
+Saves local modifications to a new stash
+
+`git stash list`
+
+Lists all stashed changesets
+
+`git stash show`
+
+Show the changes recorded in the stash
+
+`git stash drop`
+
+Discards the most recently stashed changesets
+
+`git stash pop`
+
+Restores the most recently stashed files
