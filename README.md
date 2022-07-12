@@ -86,6 +86,10 @@ Shows the differences between staging and the last file version
 
 `git diff --staged [file name]`
 
+`git log`
+
+Lists version history for the current branch
+
 
 ## Redo changes
 
